@@ -1,0 +1,13 @@
+{
+  "watch": ["client", "server"],
+  "ext": "js,jsx,ts,tsx,json,html,css,scss",
+  "ignore": [
+    "client/node_modules",
+    "client/build",
+    "node_modules",
+    "**/node_modules",
+    "*/node_modules",
+    "dist"
+  ],
+  "exec": "npm run build:client && npm run build:server && npm run start"
+}
